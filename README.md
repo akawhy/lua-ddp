@@ -10,7 +10,7 @@ a very very small and easy tool to debug lua variable
 
 local ddp = require 'ddp'
 
-ddp.p($var)
+ddp.p(var)
 
 ```
 
