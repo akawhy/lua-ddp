@@ -16,4 +16,4 @@ ddp.p(var)
 
 ## DESCRIPTION
 
-just an small tool for debug lua variable with colors
+just an small tool for debug lua variable with **colors**

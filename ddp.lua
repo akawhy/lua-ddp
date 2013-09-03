@@ -21,7 +21,7 @@ local cn = "\27[0m"
 
 --- print the indent
 local function pi(indent)
-    io.write(string.rep("  ", indent))
+    io.write(string.rep("   ", indent))
 end
 
 --- print next line
@@ -43,7 +43,7 @@ local function pt(var, indent)
     pv('{'); pl()
 
     for k, v in pairs(var) do
-        pi(indent + 1); pv('['); pv(k, ttc[type(k)]); pv(']   ')
+        pi(indent + 1); pv('['); pv(k, ttc[type(k)]); pv(']  =>  ')
 
         local t = type(v)
         if t == 'table' then
